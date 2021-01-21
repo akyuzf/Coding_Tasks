@@ -8,7 +8,7 @@ import java.util.List;
 /*
 Write a method that can sort the ArrayList in Ascending order without using the sort method
  */
-public class ArrayList03_SortAscending {
+public class ArrayList03_SortDescending {
 
     public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class ArrayList03_SortAscending {
         for (int i = 0; i < list2.size(); i++) {
             for (int j = 0; j < list2.size(); j++) {
 
-                if (list2.get(i) < list2.get(j)){
+                if (list2.get(i) > list2.get(j)){
                     int temp = list2.get(i);
                     list2.set(i, list2.get(j));
                     list2.set(j, temp);
