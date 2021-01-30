@@ -2,7 +2,7 @@ package Tasks;
 /*
 Write a return method that returns the factorial number of any given number
  */
-public class Numbers04_FactorialNumber {
+public class Numbers_FactorialNumber {
 
     public static void main(String[] args) {
 

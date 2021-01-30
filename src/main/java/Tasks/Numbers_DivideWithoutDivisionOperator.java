@@ -1,6 +1,6 @@
 package Tasks;
 
-public class Numbers02_DivideWithoutDivisionOperator {
+public class Numbers_DivideWithoutDivisionOperator {
 
     public static void main(String[] args) {
 
