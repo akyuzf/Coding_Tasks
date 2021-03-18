@@ -1,6 +1,5 @@
 package Tasks;
 
-
 public class Numbers_MissingNumber {
 
 

@@ -13,11 +13,11 @@ public class Numbers_FinRa {
 
         for (int number = 1; number <= 100; number++) {
             if (number % 15 == 0) {
-                System.out.println("FizzBuzz");
+                System.out.println("FinRa");
             } else if (number % 3 == 0) {
-                System.out.println("Fizz");
+                System.out.println("Fin");
             } else if (number % 5 == 0) {
-                System.out.println("Buzz");
+                System.out.println("Ra");
             } else {
                 System.out.println(number);
             }
