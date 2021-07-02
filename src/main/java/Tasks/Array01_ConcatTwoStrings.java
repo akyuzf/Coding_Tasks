@@ -7,15 +7,17 @@ public class Array01_ConcatTwoStrings {
 
         String str1 = "Ali";
         String str2 = "Veli";
+        String str3 = "Deli";
 
         System.out.println(concatTwoStrings (str1, str2));
+        System.out.println(concatTwoStrings (str2, str3));
 
     }
 
 
-    public static String concatTwoStrings (String str1, String str2){
+    public static String concatTwoStrings(String strA, String strB){
 
-        return str1 + ", " + str2;
+        return strA + ", " + strB;
 
     }
 
